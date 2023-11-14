@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.image {
+    height: 250px;
+}
+
+.header {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    overflow: hidden;
+    opacity: 1;
+    display: block;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity:90%;
+}
+
+.header>h1 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    letter-spacing: 1px;
+}
+
+.info {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+    padding: 405px 0 0px;
+}
+
+.portafolio>h2 {
+    color:#ffffff;
+    text-transform:uppercase;
+    font-weight:500;
+    letter-spacing:1px;
+    text-align:center;
+    }
+
+h2 {
+    color:#519973;
+    text-transform:uppercase;
+    font-weight:500;
+    letter-spacing:1px;
+    text-align:center;
+}
+
+h3 {
+    color:#4c4c4c;
+    font-size:20px;
+    text-transform:uppercase;
+    font-weight:500;
+    letter-spacing:1px;
+    text-align:left;
+}
+
+.experiencia {
+    padding: 50px 0;
+    background-color: #e9e9e997;
+    text-align: center;
+}
+
+ul {
+    font-size:13px;
+    line-height:180%;
+    padding-top:-10px;
+}
+
+
+.formación {
+    padding: 100px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+i {
+    color: #729f94;
+    display: flex;
+    font-size:50px;
+    flex-direction:column;
+    gap:30px;
+    padding-bottom:20px;
+}
+
+.portafolio {
+    padding: 50px 0;
+    background-color: #519973;
+    text-align: center;
+}

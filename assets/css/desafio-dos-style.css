@@ -1,0 +1,56 @@
+/* style.css */
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+
+/*header*/
+.header {
+    height: 5em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url("https://64.media.tumblr.com/95afe0196bbb546aebfbf0f070697ff1/f8c851db08a032b6-5b/s1280x1920/37ccc3913672359dfa706a67247875c6b6b217d3.pnj");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    line-height: 100%;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.header h1 {
+    margin: 0px;
+}
+
+/*productos*/
+.products {
+    width: 70%;
+    margin: auto;
+}
+
+.products td {
+    width: 50%;
+    padding: 2em;
+}
+
+.products img {
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+
+/*footer*/
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: #B4E1BE;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
